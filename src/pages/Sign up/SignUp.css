@@ -1,0 +1,28 @@
+.signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+}
+label{
+    font-weight: bold;
+}
+.sign-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sign-form input{
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 7px 15px;
+    outline: none;
+}
+.sign-form button{
+    width: 100px;
+    padding: 7px 0;
+    border: none;
+    background-color: rgb(52, 185, 112) ;
+    color: white;
+    border-radius: 8px;
+}
